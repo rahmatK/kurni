@@ -1,0 +1,347 @@
+@font-face {
+    font-family: OpenSansRegular;
+    src: url("../opensans/OpenSans-Regular-webfont.eot");
+    src: url("../opensans/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"),url("../opensans/OpenSans-Regular-webfont.woff") format("woff"),url("../opensans/OpenSans-Regular-webfont.ttf") format("truetype"),url("../opensans/OpenSans-Regular-webfont.svg#glyphicons_halflingsregular") format("svg");
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+@font-face {
+    font-family:OpenSansLight;src:url("../opensans/OpenSans-Light-webfont.eot");src:url("../opensans/OpenSans-Light-webfont.eot?#iefix") format("embedded-opentype"),url("../opensans/OpenSans-Light-webfont.woff") format("woff"),url("../opensans/OpenSans-Light-webfont.ttf") format("truetype"),url("../opensans/OpenSans-Light-webfont.svg#glyphicons_halflingsregular") format("svg");-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;
+}
+
+@font-face {
+    font-family:OpenSansBold;src:url("../opensans/OpenSans-Bold-webfont.eot");src:url("../opensans/OpenSans-Bold-webfont.eot?#iefix") format("embedded-opentype"),url("../opensans/OpenSans-Bold-webfont.woff") format("woff"),url("../opensans/OpenSans-Bold-webfont.ttf") format("truetype"),url("../opensans/OpenSans-Bold-webfont.svg#glyphicons_halflingsregular") format("svg");-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;
+}
+
+@font-face {
+    font-family:OpenSansItalic;src:url("../opensans/OpenSans-Italic-webfont.eot");src:url("../opensans/OpenSans-Italic-webfont.eot?#iefix") format("embedded-opentype"),url("../opensans/OpenSans-Italic-webfont.woff") format("woff"),url("../opensans/OpenSans-Italic-webfont.ttf") format("truetype"),url("../opensans/OpenSans-Italic-webfont.svg#glyphicons_halflingsregular") format("svg");-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;
+}
+
+a {
+    color: #0c5e97;
+}
+
+html,body {
+    background-color: #f3f3f3;
+    font-family: OpenSansRegular;
+    height: 100% !important;
+    font-size: 18px;
+    color: #666666;
+}
+
+html h1,body h1,html h2,body h2,html h3,body h3,html h4,body h4,html h5,body h5 {
+    color: #384047;
+}
+
+.navbar-inverse {
+    text-transform: uppercase;
+    text-transform: uppercase !important;
+    background-color: #ffffff;
+    overflow: hidden;
+    border-bottom: 0px;
+    font-size: 14px;
+    box-shadow: none;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .navbar-inverse .navbar-brand {
+        padding-top: 15px;
+    };
+}
+
+.navbar-inverse .navbar-collapse {
+    border-bottom: 3px solid #0a9fd8;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #0c5e97;
+    background-color: #0c5e97;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    border-color: #000000;
+    background-color: #000000;
+}
+
+.navbar-inverse .navbar-toggle:focus {
+    border-color: #000000;
+    background-color: #000000;
+}
+
+.navbar-inverse .navbar-nav .active a {
+    background-color: transparent !important;
+}
+
+.navbar-inverse .navbar-nav .active a {
+    background-color: #ffffff;
+    color: #0c5e97;
+}
+
+.navbar-inverse .navbar-nav .active a:hover,.navbar-inverse .navbar-nav .active a:focus {
+    background-color: #ffffff;
+    color: #0c5e97;
+}
+
+.navbar-inverse .navbar-nav li a {
+    font-family: OpenSansBold;
+    font-size: 14px;
+}
+
+.navbar-inverse .navbar-nav li a:hover,.navbar-inverse .navbar-nav li a:focus {
+    color: #000000;
+}
+
+.navbar-inverse .navbar-form {
+    border: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding: 0px !important;
+}
+
+.navbar-inverse .navbar-form .form-control {
+    padding-left: 0px;
+}
+
+.navbar-inverse .navbar-form .form-control:focus {
+    border-color: transparent;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px transparent;
+    box-shadow: inset 0 1px 1px transparent;
+    border-right: 2px solid #eeeeee;
+}
+
+.navbar-inverse .navbar-form .input-group {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.navbar-inverse .navbar-form .input-group .input-group-addon {
+    background-color: transparent;
+    border: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.navbar-inverse .navbar-form .input-group input {
+    width: 100%;
+    height: 50px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    border: 0px !important;
+    border-right: 0px !important;
+    border-left: 0px !important;
+    margin-top: -2px;
+    padding-left: 20px;
+}
+
+.navbar-inverse .navbar-form .input-group input:focus+.input-group-addon {
+    background-color: #0a9fd8;
+    border-top: 1px solid #0a9fd8;
+    border-bottom: 1px solid #0a9fd8;
+}
+
+.sec-left {
+    padding-right: 20px;
+    background-color: #0c5e97;
+    float: left;
+    width: 10%;
+}
+
+.sec-center {
+    float: left;
+    width: 60%;
+}
+
+.sec-right {
+    float: left;
+    width: 30%;
+    background-color: #f5f7fa;
+}
+
+.nav-button {
+    margin-left: 15px;
+}
+
+.nav-button a {
+    padding: 0px !important;
+    margin-right: 35px;
+}
+
+.def-button {
+    display: inline-block !important;
+    color: #ffffff !important;
+    background-color: #e74c3c;
+    padding: 7px !important;
+    margin-top: 7px;
+    border: 1px solid transparent !important;
+}
+
+.def-button:hover {
+    color: #000000 !important;
+    border: 1px solid transparent !important;
+}
+
+.footer {
+    font-size: 14px !important;
+    background-color: #ffffff;
+    border-top: 2px solid #cccccc;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.footer ul li.blog-list {
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.footer ul li.blog-list .img {
+    padding-left: 0px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+@media (max-width: 768px) {
+    .footer ul li.blog-list .img {
+        padding-left: 15px;
+    };
+}
+
+.footer ul li.blog-list .title {
+    padding-left: 5px;
+    padding-right: 0px;
+    margin-top: 7px;
+}
+
+.footer ul li.address-list {
+    padding-bottom: 10px;
+}
+
+.footer ul h3 {
+    color: #8c989e;
+    font-family: OpenSansRegular;
+    margin-bottom: 20px;
+}
+
+.footer ul a,.footer ul p {
+    color: #8c989e;
+    font-family: OpenSansRegular;
+    text-decoration: none;
+}
+
+.footer ul a:hover,.footer ul p:hover {
+    color: #0c5e97;
+}
+
+.footer ul .social-icons-wrap {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.footer ul .social-icons-wrap .social-icons {
+    float: left;
+}
+
+.footer ul .social-icons-wrap .social-icons i {
+    color: #ffffff;
+    font-size: 20px;
+    float: left;
+    margin-right: 15px;
+}
+
+.pagination-wrap {
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pagination-wrap .pagination {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.pagination-wrap .pagination li a {
+    color: #0c5e97;
+}
+
+.pagination-wrap .pagination li a:hover {
+    background-color: #0c5e97;
+    color: #ffffff;
+}
+
+.signupwrap {
+    overflow: hidden;
+    min-height: 550px;
+    margin-top: 50px;
+    background: url("../img/banner.jpg");
+    background-size: cover;
+}
+
+.signupwrap .bgoverlay {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.signupwrap .content {
+    padding-top: 80px;
+    padding-bottom: 90px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.signupwrap .content .title h3 {
+    color: #ffffff;
+}
+
+.signupwrap .content .subtitle {
+    color: #ffffff;
+}
+
+.signupwrap .content .form {
+    float: none;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.signupwrap .content .form .form-content {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 20px 20px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.signupwrap .content .form .form-content label {
+    font-size: 14px;
+    font-family: OpenSansregular !important;
+    font-weight: normal;
+}
+
+.signupwrap .content .form .form-content .def-button {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #0c5e97;
+    color: #ffffff;
+    text-align: center;
+}
+
+.signupwrap .content .form .form-content .def-button:hover {
+    border: 1px solid #0c5e97;
+}

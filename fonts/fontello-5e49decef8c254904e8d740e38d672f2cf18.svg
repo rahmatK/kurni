@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2014 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="sail-boat" unicode="&#xe802;" d="m121 248c0-37 30-95 68-121h542c70 30 123 72 148 121 0 0-716 0-758 0z m429 602l-377-573h377v573z m30-174v-399h249l-249 399z" horiz-adv-x="1000" />
+<glyph glyph-name="paddle-boat" unicode="&#xe803;" d="m934 307c2-5 4-11 4-16 0-25-24-45-53-45h-770c-29 0-52 20-52 45 0 5 1 11 3 16-39-14-66-47-66-86 0-52 49-94 110-94h780c61 0 110 42 110 94 0 39-27 72-66 86z m-266 92l-121 24-25-5 144-29 46-41 119-24 15 72-119 24-59-21z m-336 58l121-25 25 5-144 29-46 42-119 24-14-72 118-24 59 21z m143-29l-143-29-59 21-118-24 14-72 119 24 46 41 166 34h0l17 3 151 31 59-21 119 24-15 72-119-24-46-42-188-38-3 0z" horiz-adv-x="1000" />
+<glyph glyph-name="motor-boat" unicode="&#xe804;" d="m298 335l99 139h-47l-99-139h-251c0 0 65-208 268-208 107 0 732 0 732 0v208h-702z m644 103c0 0-97 0-97 0-7 0-14-6-14-13v-71h143l-32 84z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
